@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-12 15:39:47.800364",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enter_number_to_import_books",
+  "import_books"
+ ],
+ "fields": [
+  {
+   "fieldname": "enter_number_to_import_books",
+   "fieldtype": "Int",
+   "label": "Enter Number To Import Books"
+  },
+  {
+   "fieldname": "import_books",
+   "fieldtype": "Button",
+   "label": "Import Books"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-07-12 15:39:47.800364",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Import Books",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
